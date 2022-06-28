@@ -12,7 +12,7 @@
 }
 
 .headerBoxShadow {
-	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2)
+	box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.2)
 }
 
 .cyclewaleServiceList{
@@ -75,6 +75,29 @@
 .carousel-heading {
 	text-transform: uppercase;
 	font-weight: 900;
+}
+
+.carousel-subheading {
+	text-transform: capitalize;
+}
+
+footer {
+	background-color: #2b80fd
+}
+
+.footer-icons-list > li {
+	padding-left: 2rem;
+}
+
+.copyrightMsg {
+	border-top: 1px solid #fff;
+	margin-top: 0.5rem;
+	padding-top:0.2rem;
+	font-size: 12px;
+}
+
+.bottomPadding {
+	padding-bottom: 5rem !important
 }
 @media (max-width: 991.98px) {
     .cyclewaleServiceList {
