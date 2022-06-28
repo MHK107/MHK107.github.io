@@ -1,0 +1,49 @@
+.whyCyclewaleImg{
+	max-height: 500px;
+	margin-bottom: 0.5rem;
+}
+
+.greyText {
+	color: grey !important;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.headerBoxShadow {
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2)
+}
+
+.cyclewaleServiceList{
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding-left: 0;
+}
+
+.cyclewaleServiceList> li{
+	padding-bottom: 0.75rem;
+}
+
+
+.cyclewaleServiceList> li> span {
+	font-size: 1.2rem;
+	text-transform: capitalize;
+} 
+
+.carousel-item > img {
+	max-height: 35rem;
+	object-fit: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	padding: 1.5rem;
+	background-color: red;
+}
+
+@media (max-width: 991.98px) {
+    .cyclewaleServiceList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
